@@ -1,81 +1,72 @@
-<p align="center"><a href="https://www.growthbook.io"><img src="https://cdn.growthbook.io/growthbook-logo@2x.png" width="400px" alt="GrowthBook - Open Source Feature Flagging and A/B Testing" /></a></p>
-<p align="center"><b>Open Source Feature Flagging and A/B Testing</b></p>
-<p align="center">
-    <a href="https://github.com/growthbook/growthbook/github/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/growthbook/growthbook/ci.yml?branch=main" alt="Build Status" height="22"/></a>
-    <a href="https://github.com/growthbook/growthbook/releases"><img src="https://img.shields.io/github/v/release/growthbook/growthbook?color=blue&sort=semver" alt="Release" height="22"/></a>
-    <a href="https://slack.growthbook.io?ref=readme-badge"><img src="https://img.shields.io/badge/slack-join-E01E5A?logo=slack" alt="Join us on Slack" height="22"/></a>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto"><a href="https://www.growthbook.io" rel="nofollow"><img src="https://camo.githubusercontent.com/a97916d103aa69d7f6b17dbb96a0669af2b94e8ea35393546335c99b3f820e6d/68747470733a2f2f63646e2e67726f777468626f6f6b2e696f2f67726f777468626f6f6b2d6c6f676f4032782e706e67" width="400px" alt="GrowthBook - 开源功能标记和 A/B 测试" data-canonical-src="https://cdn.growthbook.io/growthbook-logo@2x.png" style="max-width: 100%;"></a></p>
+<p align="center" dir="auto"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源功能标记和 A/B 测试</font></font></b></p>
+<p align="center" dir="auto">
+    <a href="https://github.com/growthbook/growthbook/github/actions/workflows/ci.yml"><img src="https://camo.githubusercontent.com/cb6068a63f32ae2d87c3e898b5f55f8c6dbba154b8ae070ede7e9c00f16a706e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f67726f777468626f6f6b2f67726f777468626f6f6b2f63692e796d6c3f6272616e63683d6d61696e" alt="构建状态" height="22" data-canonical-src="https://img.shields.io/github/actions/workflow/status/growthbook/growthbook/ci.yml?branch=main" style="max-width: 100%;"></a>
+    <a href="https://github.com/growthbook/growthbook/releases"><img src="https://camo.githubusercontent.com/2740fc209080c93db5eeddff37407a0f77236a7fb0355cddd3c6939b1edcad98/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f67726f777468626f6f6b2f67726f777468626f6f6b3f636f6c6f723d626c756526736f72743d73656d766572" alt="发布" height="22" data-canonical-src="https://img.shields.io/github/v/release/growthbook/growthbook?color=blue&amp;sort=semver" style="max-width: 100%;"></a>
+    <a href="https://slack.growthbook.io?ref=readme-badge" rel="nofollow"><img src="https://camo.githubusercontent.com/667f9085c29a1bc60a890ac782687201a73c40663ff87831df8b084a11202578/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f736c61636b2d6a6f696e2d4530314535413f6c6f676f3d736c61636b" alt="加入我们的 Slack" height="22" data-canonical-src="https://img.shields.io/badge/slack-join-E01E5A?logo=slack" style="max-width: 100%;"></a>
 </p>
-
-Get up and running in 1 minute with:
-
-```sh
-git clone https://github.com/growthbook/growthbook.git
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 分钟内即可启动并运行：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/growthbook/growthbook.git
+<span class="pl-c1">cd</span> growthbook
+docker-compose up -d</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/growthbook/growthbook.git
 cd growthbook
-docker-compose up -d
-```
-
-Then visit http://localhost:3000
-
-[![GrowthBook Screenshot](/features-screenshot.png)](https://www.growthbook.io)
-
-## Our Philosophy
-
-The top 1% of companies spend thousands of hours building their own feature flagging and A/B testing platforms in-house.
-The other 99% are left paying for expensive 3rd party SaaS tools or hacking together unmaintained open source libraries.
-
-We want to give all companies the flexibility and power of a fully-featured in-house platform without needing to build it themselves.
-
-## Major Features
-
-- 🏁 Feature flags with advanced targeting, gradual rollouts, and experiments
-- 💻 SDKs for [React](https://docs.growthbook.io/lib/react), [Javascript](https://docs.growthbook.io/lib/js), [PHP](https://docs.growthbook.io/lib/php), [Ruby](https://docs.growthbook.io/lib/ruby), [Python](https://docs.growthbook.io/lib/python), [Go](https://docs.growthbook.io/lib/go), [Android](https://docs.growthbook.io/lib/kotlin), [iOS](https://docs.growthbook.io/lib/swift), and [more](https://docs.growthbook.io/lib)!
-- 🆎 Powerful A/B test analysis with advanced statistics (CUPED, Sequential testing, Bayesian, SRM checks, and more)
-- ❄️ Use your existing data stack - BigQuery, Mixpanel, Redshift, Google Analytics, [and more](https://docs.growthbook.io/app/datasources)
-- ⬇️ Drill down into A/B test results by browser, country, or any other custom attribute
-- 🪐 Export reports as a Jupyter Notebook!
-- 📝 Document everything with screenshots and GitHub Flavored Markdown throughout
-- 🔔 Webhooks and a REST API for building integrations
-
-## Try GrowthBook
-
-### Managed Cloud Hosting
-
-Create a free [GrowthBook Cloud](https://app.growthbook.io) account to get started.
-
-### Open Source
-
-The included [docker-compose.yml](https://github.com/growthbook/growthbook/blob/main/docker-compose.yml) file contains the GrowthBook App and a MongoDB instance (for storing cached experiment results and metadata):
-
-```sh
-git clone https://github.com/growthbook/growthbook.git
+docker-compose up -d" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后访问</font></font><a href="http://localhost:3000" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://localhost:3000</font></font></a></p>
+<p dir="auto"><a href="https://www.growthbook.io" rel="nofollow"><img src="/growthbook/growthbook/raw/main/features-screenshot.png" alt="成长书截图" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-our-philosophy" class="anchor" aria-hidden="true" tabindex="-1" href="#our-philosophy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的理念</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">排名前 1% 的公司花费数千小时在内部构建自己的功能标记和 A/B 测试平台。</font><font style="vertical-align: inherit;">另外 99% 的人则需要支付昂贵的第三方 SaaS 工具的费用，或者将未维护的开源库拼凑起来。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们希望为所有公司提供功能齐全的内部平台的灵活性和强大功能，而无需自行构建。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-major-features" class="anchor" aria-hidden="true" tabindex="-1" href="#major-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要特点</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🏁 具有高级定位、逐步推出和实验的功能标记</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻 适用于</font></font><a href="https://docs.growthbook.io/lib/react" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://docs.growthbook.io/lib/js" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Javascript</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://docs.growthbook.io/lib/php" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://docs.growthbook.io/lib/ruby" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ruby</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://docs.growthbook.io/lib/python" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://docs.growthbook.io/lib/go" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Go</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://docs.growthbook.io/lib/kotlin" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Android</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://docs.growthbook.io/lib/swift" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iOS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等</font></font><a href="https://docs.growthbook.io/lib" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SDK ！</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🆎 具有高级统计功能的强大 A/B 测试分析（CUPED、顺序测试、贝叶斯、SRM 检查等）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❄️ 使用现有的数据堆栈 - BigQuery、Mixpanel、Redshift、Google Analytics</font></font><a href="https://docs.growthbook.io/app/datasources" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⬇️ 按浏览器、国家/地区或任何其他自定义属性深入了解 A/B 测试结果</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🪐 将报告导出为 Jupyter Notebook！</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📝 使用屏幕截图和 GitHub Flavored Markdown 记录所有内容</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔔 用于构建集成的 Webhooks 和 REST API</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-try-growthbook" class="anchor" aria-hidden="true" tabindex="-1" href="#try-growthbook"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试成长手册</font></font></h2>
+<h3 tabindex="-1" dir="auto"><a id="user-content-managed-cloud-hosting" class="anchor" aria-hidden="true" tabindex="-1" href="#managed-cloud-hosting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">托管云托管</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建一个免费的</font></font><a href="https://app.growthbook.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GrowthBook 云</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帐户即可开始。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-open-source" class="anchor" aria-hidden="true" tabindex="-1" href="#open-source"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含的</font></font><a href="https://github.com/growthbook/growthbook/blob/main/docker-compose.yml"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docker-compose.yml</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件包含 GrowthBook 应用程序和 MongoDB 实例（用于存储缓存的实验结果和元数据）：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/growthbook/growthbook.git
+<span class="pl-c1">cd</span> growthbook
+docker-compose up -d</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/growthbook/growthbook.git
 cd growthbook
-docker-compose up -d
-```
-
-Then visit http://localhost:3000 to view the app.
-
-Check out the full [Self-Hosting Instructions](https://docs.growthbook.io/self-host) for more details.
-
-## Documentation and Support
-
-View the [GrowthBook Docs](https://docs.growthbook.io) for info on how to configure and use the platform.
-
-Join [our Slack community](https://slack.growthbook.io?ref=readme-support) if you get stuck, want to chat, or are thinking of a new feature.
-
-Or email us at [hello@growthbook.io](mailto:hello@growthbook.io) if Slack isn't your thing.
-
-We're here to help - and to make GrowthBook even better!
-
-## Contributors
-
-We ❤️ all contributions, big and small!
-
-Read [CONTRIBUTING.md](/CONTRIBUTING.md) for how to setup your local development environment.
-
-If you want to, you can reach out via [Slack](https://slack.growthbook.io?ref=readme-contributing) or [email](mailto:hello@growthbook.io) and we'll set up a pair programming session to get you started.
-
-## License
-
-GrowthBook is an Open Core product. The bulk of the code is under the permissive MIT license, and the `packages/enterprise` directory has its own separate commercial license.
-
-View the `LICENSE` file in this repository for the full text and details.
+docker-compose up -d" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后访问</font></font><a href="http://localhost:3000" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://localhost:3000</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看该应用程序。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看完整的</font></font><a href="https://docs.growthbook.io/self-host" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自托管说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解更多详细信息。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-documentation-and-support" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation-and-support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档和支持</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><a href="https://docs.growthbook.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GrowthBook 文档，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解如何配置和使用该平台的信息。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您遇到困难、想要聊天或正在考虑新功能，</font><font style="vertical-align: inherit;">请加入</font></font><a href="https://slack.growthbook.io?ref=readme-support" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的 Slack 社区。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不喜欢 Slack，</font><font style="vertical-align: inherit;">请发送电子邮件至</font></font><a href="mailto:hello@growthbook.io"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">hello@growthbook.io 。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们随时为您提供帮助，让 GrowthBook 变得更好！</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributors" class="anchor" aria-hidden="true" tabindex="-1" href="#contributors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献者</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们❤️所有大大小小的贡献！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读</font></font><a href="/growthbook/growthbook/blob/main/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTRIBUTING.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解如何设置本地开发环境。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您愿意，可以通过</font></font><a href="https://slack.growthbook.io?ref=readme-contributing" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Slack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="mailto:hello@growthbook.io"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电子邮件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系我们，我们将安排结对编程课程来帮助您入门。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GrowthBook 是一款开放核心产品。</font><font style="vertical-align: inherit;">大部分代码都在宽松的 MIT 许可证下，并且该</font></font><code>packages/enterprise</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录有自己单独的商业许可证。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><code>LICENSE</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此存储库中的文件以获取全文和详细信息。</font></font></p>
+</article></div>
